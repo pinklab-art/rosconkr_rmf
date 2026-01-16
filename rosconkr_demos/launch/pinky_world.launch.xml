@@ -1,0 +1,21 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="use_sim_time" default="false"/>
+  <arg name="server_uri" default="" description="The URI of the api server to transmit state and task information."/>
+
+  <!-- Common launch -->
+  <include file="$(find-pkg-share rosconkr_demos)/launch/common.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share rosconkr_demos)/launch/include/pinky_world/pinky_world.rviz"/>
+    <arg name="config_file" value="$(find-pkg-share rosconkr_maps)/pinky_world/pinky_world.building.yaml"/>
+  </include>
+
+    <!-- Pinky fleet adapter -->
+    <node pkg="rosconkr_pinky_fleet_adapter" exec="fleet_adapter" name="pinky_fleet_adapter" output="screen" 
+      args="-c $(find-pkg-share rosconkr_demos)/config/pinky_world/pinky_config.yaml 
+        -n $(find-pkg-share rosconkr_maps)/maps/pinky_world/nav_graphs/0.yaml 
+        -s $(var server_uri)">
+    </node>
+
+</launch>

@@ -1,0 +1,19 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="failover_mode" default="false"/>
+  <arg name="gazebo_version" default='8'/>
+
+  <!-- Common launch -->
+  <include file="$(find-pkg-share rosconkr_demos)/launch/workshop.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="failover_mode" value="$(var failover_mode)"/>
+  </include>
+
+  <!-- Simulation launch -->
+  <include file="$(find-pkg-share rosconkr_gz)/launch/simulation.launch.xml">
+    <arg name="map_name" value="workshop" />
+    <arg name="gazebo_version" value="$(var gazebo_version)" />
+  </include>
+</launch>

@@ -1,0 +1,15 @@
+- operation: Add
+  participant_description:
+    name: pinky_1
+    group: pinky
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 0.10000000000000001
+        - 0.40000000000000002
