@@ -235,4 +235,4 @@ ros2 run rmf_demos_tasks dispatch_patrol -p node_C -n 1 -F pinky -R pinky_2 --us
 워크숍의 핵심 흐름이 실물 로봇으로 완료되었습니다.
 이제 마무리와 참고 자료를 정리하는 단계로 넘어갑니다.
 
-*   다음 문서로 이동: [06 마무리 문서](./06_ending.md)
+*   다음 문서로 이동: [06 마무리 문서](./06_final.md)
