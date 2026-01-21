@@ -52,7 +52,7 @@ Traffic Editor는 표준화된 형식으로 공간 정보를 정의합니다:
 터미널 창을 하나 열고 Traffic Editor를 실행하여 실제 인터페이스를 확인해 봅니다.
 
 ```bash
-traffic_editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop.yaml
+traffic-editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop.yaml
 ```
 
 ### 기본 조작 (Try It Yourself)
@@ -179,19 +179,19 @@ gnome-text-editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop
 * 사무실 환경으로 구성된 맵
 ![Office Map](../images/02/14.png)
 ```bash
-traffic_editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/office/office.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/office/office.building.yaml
 ```
 
 * hotel 환경(3층 구성)
 ![Hotel Map](../images/02/15.png)
 ```bash
-traffic_editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/hotel/hotel.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/hotel/hotel.building.yaml
 ```
 
 * 걸어다니는 사람에 대한 시뮬레이션 공항 맵
 ![airport_terminal](../images/02/16.png)
 ```bash
-traffic_editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/airport/airport.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/airport/airport.building.yaml
 ```
 
 ### 참고 자료
