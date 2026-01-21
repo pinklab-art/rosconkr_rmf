@@ -65,8 +65,8 @@ Phase 2에서와 동일한 환경이 로드되지만, 이번에는 여러 로봇
 
 새 터미널을 열고 다음 명령어들을 한번에 실행합니다.
 ```bash
-ros2 run rmf_demos_tasks dispatch_patrol -p patrol_1003_2 -n 1 -F TinyRobot -R tinyBot_1 --use_sim_time
-ros2 run rmf_demos_tasks dispatch_patrol -p patrol_1004_1 -n 1 -F CleanerBotA -R cleanerBotA_1 --use_sim_time
+ros2 run rmf_demos_tasks dispatch_patrol -p patrol_1003_2 -n 1 -F tinyRobot -R tinyBot_1 --use_sim_time
+ros2 run rmf_demos_tasks dispatch_patrol -p patrol_1004_1 -n 1 -F cleanerBotA -R cleanerBotA_1 --use_sim_time
 ```
 
 ![교착 상황을 보여주는 시뮬레이션 화면](../images/04/4.png)
