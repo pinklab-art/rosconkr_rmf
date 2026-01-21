@@ -52,7 +52,7 @@ Traffic Editor는 표준화된 형식으로 공간 정보를 정의합니다:
 터미널 창을 하나 열고 Traffic Editor를 실행하여 실제 인터페이스를 확인해 봅니다.
 
 ```bash
-traffic-editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop.yaml
+traffic-editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop.building.yaml
 ```
 
 ### 기본 조작 (Try It Yourself)
