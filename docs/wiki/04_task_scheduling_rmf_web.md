@@ -139,7 +139,7 @@ pnpm start
 * rmf-web dashboard 실행
 ```
 cd ~/rmf-web/packages/rmf-dashboard-framework
-pnpm start:example example/demos
+pnpm start:example example/demos/
 ```
 
 `http://localhost:5173`으로 접속하면 메인 대시보드에 접근할 수 있습니다.
