@@ -333,9 +333,9 @@ class RobotAPI:
     def _get_namespace(self, robot_name: str) -> str:
         """로봇 이름을 기반으로 네임스페이스 반환 (설정 없으면 자동 생성)"""
         if robot_name in self.robot_configs:
-            return self.robot_configs[robot_name].get('namespace', f'/{robot_name}')
+            return self.robot_configs[robot_name].get('namespace')
         # 설정이 없으면 /robot_name 형태로 fallback
-        return f'/{robot_name}'
+        return ""
 
     def _ensure_robot_setup(self, robot_name: str):
         """
