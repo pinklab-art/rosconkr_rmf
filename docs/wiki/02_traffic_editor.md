@@ -179,19 +179,19 @@ gnome-text-editor ~/rmf_ws/src/rosconkr_rmf/rosconkr_maps/maps/workshop/workshop
 * 사무실 환경으로 구성된 맵
 ![Office Map](../images/02/14.png)
 ```bash
-traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/office/office.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/office/office.building.yaml
 ```
 
 * hotel 환경(3층 구성)
 ![Hotel Map](../images/02/15.png)
 ```bash
-traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/hotel/hotel.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/hotel/hotel.building.yaml
 ```
 
 * 걸어다니는 사람에 대한 시뮬레이션 공항 맵
 ![airport_terminal](../images/02/16.png)
 ```bash
-traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_map/maps/airport/airport.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/airport/airport.building.yaml
 ```
 
 ### 참고 자료
