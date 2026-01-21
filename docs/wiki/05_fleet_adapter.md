@@ -150,7 +150,7 @@ def navigate(self, robot_name: str, pose, map_name: str, speed_limit=0.0):
 ### **Pinky Fleet Adapter 구현**
 
 Pinky Fleet Adapter는 `fleet_adapter_template`의 **RobotClientAPI.py 핵심 4개 함수**만 Pinky 방식에 맞게 구현해서 완성했습니다.
-
+[코드 보기](https://github.com/pinklab-art/rosconkr_rmf/tree/main/rosconkr_pinky_fleet_adapter/rosconkr_pinky_fleet_adapter)
 **구현 매핑:**
 - `navigate()` → **Nav2 액션** (`NavigateToPose`) 비동기 전송
 - `position()` → **AMCL 토픽** (`amcl_pose`) 실시간 구독
