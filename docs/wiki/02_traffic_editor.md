@@ -191,7 +191,7 @@ traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/hotel/hotel.building.y
 * 걸어다니는 사람에 대한 시뮬레이션 공항 맵
 ![airport_terminal](../images/02/16.png)
 ```bash
-traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/airport/airport.building.yaml
+traffic-editor ~/rmf_ws/src/rmf_demos/rmf_demos_maps/maps/airport_terminal/airport_terminal.building.yaml
 ```
 
 ### 참고 자료
