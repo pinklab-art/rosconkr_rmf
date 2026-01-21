@@ -126,7 +126,7 @@ Delivery Task는 층간 이동을 포함하는 더 복잡한 작업으로, 엘�
 ![loop image3](../images/03/10-1.png)
 
 ```bash
-ros2 run rmf_demos_tasks dispatch_delivery -p patrol_1103_1 -ph coke_dispenser -d patrol_1004_1 -dh coke_ingestor --use_sim_time
+ros2 run rmf_demos_tasks dispatch_delivery -p patrol_1105_3 -ph coke_dispenser -d patrol_1004_1 -dh coke_ingestor --use_sim_time
 ```
 
 * 위 명령어는 1103_1에서 coke_dispenser 모델 위에 있는 물체를 PickUp해서, patrol_1004_1에 DropOff하라는 명령어 입니다. 
