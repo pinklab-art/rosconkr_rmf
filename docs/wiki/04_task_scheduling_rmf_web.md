@@ -129,7 +129,7 @@ RMF-Web은 OpenRMF를 사용하는 솔루션에 쉽게 접목가능한  **통합
 #### RMF-Web을 실행하려면 총 3개의 터미널이 필요합니다. 
 * OpenRMF 실행 및 Gazebo 실행 
 ```
-ros2 launch rosconkr_gazebo workshop.launch.py server_uri:="ws://localhost:8000/_internal"
+ros2 launch rosconkr_gz workshop.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
 * rmf-web api-server 실행
 ```
