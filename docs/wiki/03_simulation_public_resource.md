@@ -36,7 +36,7 @@ Traffic Editor에서 정의한 문과 엘리베이터가 Gazebo 환경에 실제
 시뮬레이션을 시작하려면 다음 명령어를 실행합니다:
 
 ```bash
-ros2 launch rosconkr_gazebo workshop.launch.py
+ros2 launch rosconkr_gz workshop.launch.py
 ```
 
 실행하면 Gazebo 창이 열리고, 사전에 정의된 맵과 로봇이 로드됩니다.
