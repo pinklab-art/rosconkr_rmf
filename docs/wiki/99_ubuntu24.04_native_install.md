@@ -40,7 +40,13 @@ cd ~/rmf_ws
 colcon build
 ```
 
-### 5) rmf-web 설치 
+### 5) 의존성 설치
+```bash
+cd ~/rmf_ws
+rosdep install --from-paths src -ry
+```
+
+### 6) rmf-web 설치 
 * pnpm 설치
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
